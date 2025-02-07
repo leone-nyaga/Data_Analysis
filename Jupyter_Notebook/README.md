@@ -1,5 +1,7 @@
 # JUPYTER NOTEBOOK
 
+![Jupyter logo](https://github.com/leone-nyaga/Data_Analysis/blob/main/images/jupyter.png)
+
 Jupyter Notebook is an incredibly powerful tool for interactively developing and presenting data science projects. It combines code, visualizations, narrative text, and other rich media into a single document, creating a cohesive and expressive workflow.
 
 ## What is Jupyter Notebook?
