@@ -29,3 +29,14 @@ jupyter notebook
 ```
 
 Then copy the url provided and paste in on a browser
+
+## What is an ipynb File?
+
+The short answer: each .ipynb file is one notebook, so each time you create a new notebook, a new .ipynb file will be created.
+
+The longer answer: Each .ipynb file is a text file that describes the contents of your notebook in a format called JSON. Each cell and its contents, including image attachments that have been converted into strings of text, is listed therein along with some metadata.
+
+You can edit this yourself — if you know what you are doing! — by selecting "Edit > Edit Notebook Metadata" from the menu bar in the notebook. You can also view the contents of your notebook files by selecting “Edit” from the controls on the dashboard
+
+However, the key word there is can. In most cases, there's no reason you should ever need to edit your notebook metadata manually.
+
