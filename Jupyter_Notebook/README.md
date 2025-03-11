@@ -73,3 +73,16 @@ The result should look like this:
 
 ![Hello world](https://github.com/leone-nyaga/Data_Analysis/blob/main/images/notebook_hello_world.png)
 
+When we run the cell, its output is displayed directly below the code cell, and the label to its left will have changed from **In [ ]** to **In [1]**.
+
+Like the contents of a cell, the output of a code cell also becomes part of the document. You can always tell the difference between a code cell and a Markdown cell because code cells have that special **In [ ]** label on their left and Markdown cells do not.
+
+The **“In”** part of the label is simply short for **“Input,”** while the label number inside [ ] indicates when the cell was executed on the kernel — in this case the cell was executed first.
+
+Run the cell again and the label will change to **In [2]** because now the cell was the second to be run on the kernel. Why this is so useful will become clearer later on when we take a closer look at kernels.
+
+From the menu bar, click **Insert** and select **Insert Cell** Below to create a new code cell underneath your first one and try executing the code below to see what happens. Do you notice anything different compared to executing that first code cell?
+
+## Keyboard Shortcuts
+
+One final thing you may have noticed when running your cells is that their border turns blue after it's been executed, whereas it was green while you were editing it. In a Jupyter Notebook, there is always one “active” cell highlighted with a border whose color denotes its current mode:
