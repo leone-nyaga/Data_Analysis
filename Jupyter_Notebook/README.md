@@ -64,3 +64,12 @@ We’ll return to kernels a little later, but first let’s come to grips with c
 
 + A **code cell** contains code to be executed in the kernel. When the code is run, the notebook displays the output below the code cell that generated it.
 + A Markdown cell contains text formatted using [Markdown](https://www.markdownguide.org/basic-syntax/) and displays its output in-place when the Markdown cell is run.
+
+The first cell in a new notebook defaults to a code cell. Let’s test it out with a classic "Hello World!" example.
+
+Type **print('Hello World!')** into that first cell and click the **Run** button in the toolbar above or press **Ctrl + Enter** on your keyboard.
+
+The result should look like this:
+
+![Hello world](https://github.com/leone-nyaga/Data_Analysis/blob/main/images/notebook_hello_world.png)
+
