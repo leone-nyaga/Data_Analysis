@@ -86,3 +86,29 @@ From the menu bar, click **Insert** and select **Insert Cell** Below to create a
 ## Keyboard Shortcuts
 
 One final thing you may have noticed when running your cells is that their border turns blue after it's been executed, whereas it was green while you were editing it. In a Jupyter Notebook, there is always one “active” cell highlighted with a border whose color denotes its current mode:
+
++ Green outline — cell is in "edit mode"
++ Blue outline — cell is in "command mode"
+
+So what can we do to a cell when it's in command mode? So far, we have seen how to run a cell with **Ctrl + Enter**, but there are plenty of other commands we can use. The best way to use them is with keyboard shortcuts.
+
+Keyboard shortcuts are a very popular aspect of the Jupyter environment because they facilitate a speedy cell-based workflow. Many of these are actions you can carry out on the active cell when it’s in command mode.
+
+Below, you’ll find a list of some of Jupyter’s keyboard shortcuts. You don't need to memorize them all immediately, but this list should give you a good idea of what’s possible.
+
++ Toggle between command mode (blue) and edit mode (green) with **Esc** and **Enter**, respectively.
++ While in command mode:
+  + Scroll up and down your cells with your **Up** and **Down** keys.
+  + Press **A** or **B** to insert a new cell above or below the active cell.
+  + **M** will transform the active cell to a Markdown cell.
+  + **Y** will set the active cell to a code cell.
+  + **D + D** (**D** twice) will delete the active cell.
+  + **Z** will undo cell deletion.
+  + Hold **Shift** and press **Up** or **Down** to select multiple cells at once. With multiple cells selected, **Shift + M** will merge your selection. You can also click and **Shift + Click** in the margin to the left of your cells to select a range of them.
+
++ While in edit mode:
+  + **Ctrl + Enter** to run the current cell.
+  + **Shift + Enter** to run the current cell and move to the next cell (or create a new one if there isn’t a next cell)
+  + **Alt + Enter** to run the current cell and insert a new cell below.
+  + **Ctrl + Shift + -** will split the active cell at the cursor.
+  + **Ctrl + Click** to create multiple cursors within a cell.
