@@ -48,3 +48,8 @@ Why not take a look around? Check out the menus to get a feel for it, especially
 
 ![jupyter interface](https://github.com/leone-nyaga/Data_Analysis/blob/main/images/jupyter%20notebook%20interface.png)
 
+## ZEN OF PYTHON
+
+![zen of python](https://github.com/leone-nyaga/Data_Analysis/blob/main/images/zen%20of%20python.png)
+
+
