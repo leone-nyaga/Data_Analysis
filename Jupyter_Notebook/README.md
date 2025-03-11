@@ -52,4 +52,15 @@ Why not take a look around? Check out the menus to get a feel for it, especially
 
 ![zen of python](https://github.com/leone-nyaga/Data_Analysis/blob/main/images/zen%20of%20python.png)
 
+There are two key terms that you should notice in the menu bar, which are probably new to you: **Cell** and **Kernel**. These are key terms for understanding how Jupyter works, and what makes it more than just a word processor. Here's a basic definition of each:
 
++ The kernel in a Jupyter Notebook is like the brain of the notebook. It’s the "computational engine" that runs your code. When you write code in a notebook and ask it to run, the kernel is what takes that code, processes it, and gives you the results. Each notebook is connected to a specific kernel that knows how to run code in a particular programming language, like Python.
+
++ A cell in a Jupyter Notebook is like a block or a section where you write your code or text (notes). You can write a piece of code or some explanatory text in a cell, and when you run it, the code will be executed, or the text will be rendered (displayed). Cells help you organize your work in a notebook, making it easier to test small chunks of code and explain what’s happening as you go along.
+
+## CELLS
+
+We’ll return to kernels a little later, but first let’s come to grips with cells. Cells form the body of a notebook. In the screenshot of a new notebook in the section above, that box with the green outline is an empty cell. There are two main cell types that we will cover:
+
++ A **code cell** contains code to be executed in the kernel. When the code is run, the notebook displays the output below the code cell that generated it.
++ A Markdown cell contains text formatted using [Markdown](https://www.markdownguide.org/basic-syntax/) and displays its output in-place when the Markdown cell is run.
