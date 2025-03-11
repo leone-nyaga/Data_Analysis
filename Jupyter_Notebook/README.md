@@ -40,3 +40,8 @@ You can edit this yourself — if you know what you are doing! — by selecting 
 
 However, the key word there is can. In most cases, there's no reason you should ever need to edit your notebook metadata manually.
 
+## The Notebook Interface
+
+Now that you have an open notebook in front of you, its interface will hopefully not look entirely alien. After all, Jupyter is essentially just an advanced word processor.
+
+Why not take a look around? Check out the menus to get a feel for it, especially take a few moments to scroll down the list of commands in the command palette, which is the small button with the keyboard icon **(or Ctrl + Shift + P)**.
