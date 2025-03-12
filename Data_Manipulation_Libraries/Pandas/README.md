@@ -31,3 +31,19 @@ Undoubtedly, pandas is a powerful data manipulation tool packaged with several b
 + **Works with large data**: pandas handles large data sets with ease. It offers speed and efficiency while working with datasets of the order of millions of records and hundreds of columns, depending on the machine
 
 ## How to install pandas?
+
+Installing pandas is straightforward; just use the **pip install** command in your terminal. 
+```bash
+pip install pandas
+```
+
+Altenatively, you can install via condas
+```bash
+conda install pandas
+```
+
+After installing pandas, it's good practice to check the installed version to ensure everything is working correctly:
+```python
+import pandas as pd
+print(pd.__version__)  # Prints the pandas version
+```
